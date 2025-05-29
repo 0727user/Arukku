@@ -132,9 +132,11 @@
   <div class="tab" onclick="showMenu('smoothies')">اسموتی</div>
   <div class="tab" onclick="showMenu('mocktails')">ماکتل</div>
   <div class="tab" onclick="showMenu('hot-drinks')">نوشیدنی گرم</div>
+  <div class="tab" onclick="showMenu('matcha')">ماچا</div>
   <div class="tab" onclick="showMenu('cold-bar')">بار سرد</div>
   <div class="tab" onclick="showMenu('shakes')">شیک بستنی</div>
   <div class="tab" onclick="showMenu('cakes')">کیک</div>
+  <div class="tab" onclick="showMenu('food')">غذا</div>
   <div class="tab" onclick="showMenu('additives')">افزودنی‌ها</div>
 </nav>
 
@@ -290,6 +292,29 @@
   </div>
 </section>
 
+<!--matcha-->
+<section id="matcha" class="menu-section">
+  <div class="menu-item" onclick="openModal('ماچا لته', '/path/to/your-image.jpg')">
+    <!-- <img src="/path/to/your-image.jpg" alt="hotchoclet"> -->
+    <h3>ماچا لته</h3>
+    <p>برای نمایش جزئیات کلیک کنید</p>
+    <h2><span class="price">125,000 تومان</span></h2>
+  </div>
+  <div class="menu-item" onclick="openModal('آیس ماچا لته', '/path/to/your-image.jpg')">
+    <!-- <img src="/path/to/your-image.jpg" alt="hotchoclet"> -->
+    <h3>آبس ماچا لته</h3>
+    <p>برای نمایش جزئیات کلیک کنید</p>
+    <h2><span class="price">125,000 تومان</span></h2>
+  </div>
+  <div class="menu-item" onclick="openModal('چای ماچا', '/path/to/your-image.jpg')">
+    <!-- <img src="/path/to/your-image.jpg" alt="hotchoclet"> -->
+    <h3>چای ماچا</h3>
+    <p>برای نمایش جزئیات کلیک کنید</p>
+    <h2><span class="price">90,000 تومان</span></h2>
+  </div>
+  </section>
+
+  
 <!--bar sard-->
 <section id="cold-bar" class="menu-section">
   <div class="menu-item" onclick="openModal('آیس امریکانو', '/path/to/your-image.jpg', 'اسپرسو + آب سرد + یخ')">
@@ -489,6 +514,25 @@
     <!-- <img src="/path/to/your-image.jpg" alt="Chocolate Cheesecake"> -->
     <h3>کیک شکلاتی</h3>
     <h2><span class="price">85,000 تومان</span></h2>
+  </div>
+</section>
+
+  <!-- food -->
+<section id="food" class="menu-section">
+  <div class="menu-item" onclick="openModal('اسنک', '/path/to/your-image.jpg', 'ژامبون + پنیر ورقه ای + نان تست')">
+    <!-- <img src="/path/to/your-image.jpg" alt="Chocolate Cheesecake"> -->
+    <h3>اسنک</h3>
+    <h2><span class="price">75,000 تومان</span></h2>
+  </div>
+  <div class="menu-item" onclick="openModal('سیب زمینی ساده', '/path/to/your-image.jpg')">
+    <!-- <img src="/path/to/your-image.jpg" alt="Chocolate Cheesecake"> -->
+    <h3>سیب زمینی ساده</h3>
+    <h2><span class="price">100,000 تومان</span></h2>
+  </div>
+  <div class="menu-item" onclick="openModal('سیب زمینی ویژه', '/path/to/your-image.jpg', 'سیب زمینی هواپز شده +سس قارچ + ژامبون')">
+    <!-- <img src="/path/to/your-image.jpg" alt="Chocolate Cheesecake"> -->
+    <h3>سیب زمینی ویژه</h3>
+    <h2><span class="price">150,000 تومان</span></h2>
   </div>
 </section>
 
